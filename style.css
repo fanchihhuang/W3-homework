@@ -219,12 +219,13 @@ a{
 	background-position: center center;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
 }
 .container2{
-	max-width: 576px;
+	max-width: 1296px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 12px;
 	text-align: right;
-	margin-right: 16%;
 }
 .banner button{
 	background:#AA0601;
@@ -418,7 +419,7 @@ input[type=checkbox]{
 		background-size: cover;
 	}
 	.container2{
-		margin-right: 4.81%;
+		max-width: 696px;
 	}
 	.container3{
 		padding-bottom:80px;	
@@ -529,6 +530,9 @@ input[type=checkbox]{
 		font-size: 24px;
 		padding-top: 40px;
 		padding-bottom: 24px;
+	}
+	.container2{
+		max-width: 373px;
 	}
 	.container3{
 		padding-bottom:16px;	
