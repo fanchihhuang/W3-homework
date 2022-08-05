@@ -535,6 +535,7 @@ input[type=checkbox]{
 		max-width: 373px;
 	}
 	.container3{
+		max-width: 373px;
 		padding-bottom:16px;	
 	}
 	.profession li{
@@ -548,7 +549,16 @@ input[type=checkbox]{
 		font-size: 40px;
 	}
 	.container4{
-		max-width: 348px;
+		max-width: 373px;
+	}
+	.container5{
+		max-width: 373px;
+	}
+	.changeimage1{
+		content: url(image/home-section4-1-sm.png);
+	}
+	.changeimage2{
+		content: url(image/home-section4-2-sm.png);
 	}
 	.container6{
 		max-width: 348px;
@@ -615,15 +625,4 @@ input[type=checkbox]{
 		margin-bottom: 8px;
 	}
 
-}
-@media(max-width:500px){
-	.changeimage1{
-		content: url(image/home-section4-1-sm.png);
-	}
-	.changeimage2{
-		content: url(image/home-section4-2-sm.png);
-	}
-	.container5{
-		max-width: 348px;
-	}
 }
